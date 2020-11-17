@@ -19,4 +19,7 @@ Web or APP reaction: 'login', 'home_page', 'view_inbox', 'like_message', 'send_m
 * Changes of metrics, some traffic from original engagement is split to other channels.
 
 ## Hypothesis and Testing Strategies
-1. Technical error
+1. **Technical error**. Was a server or database down? Was there a bad update in the production code? Was there A/B testing in progress that interfered with UX/UI?
+  * To test this, I will look for a change in the type of user events with particular interest in homepage landing, email activity, logins, and likes.
+  * I will look for different patterns of use between user types (which remain underfined in the instructions)
+  * I will look for patterns of use by device type. For example, if there is a bug with a Windows update that prevented Windows users, but not MacOS users from logging in or otherwise engaging with te platform.
