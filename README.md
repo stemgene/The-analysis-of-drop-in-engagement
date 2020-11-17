@@ -3,6 +3,8 @@
 ## The problem
 There is an unexpected downturn in Yammer's user engagement in the month of August, 2014. I have been tasked with identifying the cause of the drop in engagement and must recommend a time-efficient solution.
 
+![user downturn](https://github.com/stemgene/The-analysis-of-drop-in-engagement/blob/main/imgs/user.png)
+
 ### How to define engaged user:
 Email reaction: 'sent_weekly_digest', 'email_open', 'email_clickthrough','sent_reengagement_email'
 Web or APP reaction: 'login', 'home_page', 'view_inbox', 'like_message', 'send_message','search_autocomplete', 'search_run', 'search_click_result'
