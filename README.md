@@ -23,3 +23,18 @@ Web or APP reaction: 'login', 'home_page', 'view_inbox', 'like_message', 'send_m
   * To test this, I will look for a change in the type of user events with particular interest in homepage landing, email activity, logins, and likes.
   * I will look for different patterns of use between user types (which remain underfined in the instructions)
   * I will look for patterns of use by device type. For example, if there is a bug with a Windows update that prevented Windows users, but not MacOS users from logging in or otherwise engaging with te platform.
+
+2. **Social consequences**. Did the CEO post something inflammatory on Twitter? Was there popular unrest or pandemic? Was it a holiday?
+ * I did a Google search for events related to Yammer to see if it was in the news, but found nothing significant.
+ * Sept 2, 2014 was the day after labor day in the US but the drop happened prior to the holiday.
+ 
+3. **Business consequences**. Is this a part of a larger business cycle? Was there a corresponding drop in the stock market? Did a competitor increase competition with a new product or feature? Was there a change to user policy?
+ * **In July 2014, Yammer made the migration to Sharepoint with Yammer Enterprise as part of the MS Office enterprise suite. A user had to take extra steps to activate their yammer enterprise accounts**
+  * "Before you can activate Yammer Enterprise, you need to choose Yammer tool for Sharepoint Online by going to Office365 Admin Center, Sharepoint -> Settings. On the setting page, change the Enterprise Social Collaboration tool to Yammer.com service."
+  * There's an additional step and activation hurdle if you already have an office365 personal account.
+  * If this is an impactful hurdle for Yammer usage, it will affect Yammer users who have to transition from personal accounts to enterprise accounts due to an activation step. There will be hurdles in the activation process with a large number of pending activations. All devices are likely to be affected proprtionate to their average uses, as are engagement frequency and types.
+ * July 24, 2014 a co-founder, David Sacks announced his resignation, but it isn't likely that the typical user would know this or let it impact their Yammer activity.
+ * There were no large turns in the stockmarket.
+ * I found no significant events in searches related to yammer's competitors having an advantage over yammer.
+ * I found no mention of changes to user policy afer Feb 2014, but this would be something to check for internally.
+  
