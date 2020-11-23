@@ -53,4 +53,6 @@ The ADF statistic is -2.693 and the P-value is 0.075. The data is not so station
 
 ### Look for autocorrelation on original data
 ![autocorrelation](https://github.com/stemgene/The-analysis-of-drop-in-engagement/blob/main/imgs/autocorrelation.png)
+
+![autocorrelation2](https://github.com/stemgene/The-analysis-of-drop-in-engagement/blob/main/imgs/autocorrelation2.png)
 In the original data, all but one value is within the 95% confidence interval (blue shading), so there's no autocorrelation (or hidden periodicity), at least for the range of time we are given.
