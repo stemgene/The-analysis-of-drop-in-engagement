@@ -38,3 +38,6 @@ Web or APP reaction: 'login', 'home_page', 'view_inbox', 'like_message', 'send_m
  * I found no significant events in searches related to yammer's competitors having an advantage over yammer.
  * I found no mention of changes to user policy afer Feb 2014, but this would be something to check for internally.
   
+## EDA
+* Remove duplicates and missing values
+* Convert the time to a timestamp column
