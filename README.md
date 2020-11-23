@@ -41,3 +41,16 @@ Web or APP reaction: 'login', 'home_page', 'view_inbox', 'like_message', 'send_m
 ## EDA
 * Remove duplicates and missing values
 * Convert the time to a timestamp column
+
+## Time Series Analysis
+### Are accounts that have been made in recent weeks less activethan those activated before July?
+If so, I would expect the newer accounts to be less active in August than the older accounts (i.e. the concentration of points in the scatter plot would be thinner in the lower righthand quadrant)
+![time of engagement activity](https://github.com/stemgene/The-analysis-of-drop-in-engagement/blob/main/imgs/time%20of%20engagement.png)
+I see no thinning in the lower righthand quadrant to support my hypothesis that newly created accounts are less active than long-standing accounts. If anything, they appear to be more active than older accounts across the entire sampling period.
+
+### Dickey-Fuller test to see if the time series is stationary
+The ADF statistic is -2.693 and the P-value is 0.075. The data is not so stationary. Then I de-trend the data using the substraction method and substract the baseline from the timeseries. The ADF is -5.944 and the P-value is nearly 0.
+
+### Look for autocorrelation on original data
+![autocorrelation](https://github.com/stemgene/The-analysis-of-drop-in-engagement/blob/main/imgs/autocorrelation.png)
+In the original data, all but one value is within the 95% confidence interval (blue shading), so there's no autocorrelation (or hidden periodicity), at least for the range of time we are given.
